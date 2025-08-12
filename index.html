@@ -7,15 +7,38 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="topbar">
+        <div class="debut">
+            <div class="logo1"><img src="Image/email.png" alt="" width="20px" height="20px"></div>
+            <div class="email"><p>Bizcorpo@gmail.com</p></div>
+            <div class="logo2"><img src="Image/pin.png" alt="" width="20px" height="20px"></div>
+            <div class="adresse"><p>123 Rue de l'Entreprise, Paris</p></div>
+        </div>
+        <div class="debut1">
+            <a href="#"><img src="Image/facebook.png" alt="" width="20px" height="20px"></a>
+            <a href="#"><img src="Image/twitter.png" alt="" width="20px" height="20px"></a>
+            <a href="#"><img src="Image/linkedin.png" alt="" width="20px" height="20px"></a>
+            <a href="#"><img src="Image/search.png" alt="" width="20px" height="20px"></a>
+        </div>
+    </div>
      <div class="container">
         <header>
-            <nav>
-                <ul>
+            <nav class="navbar">
+                <div class="nav-logo">
+                    <img src="Image/logo.png" alt="Logo" width="60px" height="60px">
+                    <span>BizCorps</span>
+                </div>
+                <ul class="nav-links">
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="menu1.html">About us</a></li>
-                    <li><a href="menu2.html">Blog</a></li>
-                    <li><a href="menu3.html">Contact</a></li>
+                    <li><a href="#About">About us</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#Contact">Contact</a></li>
                 </ul>
+
+                <div class="nav-contact">
+                    <img src="Image/phone-call.png" alt="Téléphone">
+                    <span>+33 1 23 45 67 89</span>
+                </div>
             </nav>  
         </header>
      </div>
@@ -23,25 +46,33 @@
         <div class="content1">
             <h1>update your business firm</h1>
             <p>ipsum dolor sit amet, consectetur adipiscing elit. <br>Sed do eiusmod tempor incididunt ut labore <br> et dolore magna aliqua.</p>
-            <button class="btn-primary">
-                <a href="#more-info">Discover more</a>
-            </button>
-            <button class="video">image</button>
-            <p class="paragraph">Watch the video</p>
+            <div class="actions">
+                <button class="btn-primary">
+                    <a href="#more-info">Discover more</a>
+                </button>
+                <div class="video">
+                    <img src="Image/play-button.png" alt="" width="50px" height="50px">
+                    <p class="paragraph">Watch the video</p>
+                </div>
+            </div>
         </div>
         <div class="content2">
             <div class="bg-shape"></div>
-            <img src="Image/Homme.png" class="person person2" width="350px" height="350px">
+            <img src="Image/one.png" class="person person2" width="400px" height="400px">
         </div>
      </section>
 
      <section class="container2">
         <div class="image-section">
             <div class="image-principal">
-                <p> polepole <br> <br> <br> <br> <br></p>
+                <img src="Image/jpp.jpg" alt="" width="200px" height="200px">
             </div>
-            <div class="image1"></div>
-            <div class="image2"></div>
+            <div class="image1">
+                <img src="Image/Wife.jpg" alt="" width="200px" height="200px">
+            </div>
+            <div class="image2">
+                <img src="Image/Man.jpg" alt="" width="200px" height="200px">
+            </div>
         </div>
      </section>
 </body>

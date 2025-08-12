@@ -3,23 +3,98 @@ body{
     margin: 0;
     padding: 0;
     background-color: rgb(169, 234, 250);
+    color: #123;
 }
-nav ul {
-    list-style-type: none;
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+}
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav-logo img {
+    width: 60px;
+    height: 60px;
+}
+.nav-logo span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #123
+}
+.nav-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
     padding: 0;
-    text-align: center;
 }
-nav ul li {
-    display: inline;
-    margin: 0 20px;
-}
-nav ul li a {
+.nav-links a {
     text-decoration: none;
-    color: #233;
+    color: #123;
     font-weight: bold;
 }
-nav ul li a:hover {
+.nav-links a:hover {
     color: rgb(169, 234, 250);
+}
+.nav-contact {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav-contact img {
+    width: 60px;
+    height: 60px;
+}
+.nav-contact span {
+    font-size: 18px;
+    color: #123;
+    font-weight: bold;
+}
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 200px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.debut {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.debut img {
+    width: 20px;
+    height: 20px;
+}
+.debut p {
+    margin: 0;
+}
+.debut1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.debut1 img {
+    width: 20px;
+    height: 20px;
+}
+.debut1 img {
+    width: 20px;
+    height: 20px;
+    transition: transform 0.3s ease;
+}
+.debut1 img:hover {
+    transform: scale(1.2);
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 .container{
     background-color: #fff;
@@ -27,7 +102,7 @@ nav ul li a:hover {
     border-radius: 40px 40px;
     margin-left: 200px;
     margin-right: 200px;
-    margin-top: 40px;
+    margin-top: 1px;
 }
 .container1 {
     background-color: rgb(169, 234, 250);
@@ -37,13 +112,19 @@ nav ul li a:hover {
     width: 50%;
     margin: 150px;
 }
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
 .video{
-    border: 2px solid white;
-    border-radius: 5px;
-    margin: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 .paragraph{
     display: inline-block;
+    margin: 20px 0;
 }
 .content2{
     float: left;
@@ -53,6 +134,7 @@ nav ul li a:hover {
 .content1 h1 {
     text-transform: capitalize;
     font-size: 50px;
+    color: #123
 }
 .btn-primary {
     background-color: rgb(5, 168, 141);
@@ -81,7 +163,7 @@ nav ul li a:hover {
 .bg-shape {
     position: absolute;
     right: 0;
-    top: 75px;
+    top: -75px;
     width: 250px;
     height: 150px;
     background-color: #0ca5a0;
@@ -99,8 +181,29 @@ nav ul li a:hover {
 }
 .person2 {
     right: 90px;
-    top: -45px;
+    top: -152px;
 }
 .container2 {
     background-color: #fff;
+}
+.image-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.image-principal {
+    border: 2px solid #fff;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.image-principal img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
+.image1, .image2 {
+    border: 2px solid #fff;
+    border-radius: 20px;
+    overflow: hidden;
 }

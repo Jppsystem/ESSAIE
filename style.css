@@ -148,6 +148,55 @@ body{
     background-color: rgb(10, 60, 155);
 
 }
+.growth {
+    display: flex;
+    margin: -90px 100px;
+    gap: 20px;
+    position: absolute;
+    font-size: 12px;
+
+}
+.growth-info {
+    margin-bottom: 20px;
+    border: 2px solid #fff;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 20px;
+}
+.bar {
+    display: flex;
+    width: 200px;
+    height: 10px;
+    background: #eee;
+    border-radius: 5px;
+    margin: 5px 0 10px;
+}
+.fill {
+    height: 100%;
+    display: block;
+    border-radius: 5px;
+    background: #00a2a5;
+}
+.fill1 {
+    width: 91%;
+}
+.fill2 {
+    width: 70%;
+}
+.creative-team {
+    text-align: center;
+    color: #fff;
+    background-color: #123;
+    padding: 20px;
+    margin: 15px;
+    height: 120px;
+    width: 220px;
+    border-radius: 10px;
+}
+.avatars img {
+    border-radius: 50%;
+    margin: -15px;
+}
 .content1 a {
     text-decoration: none;
     color: white;
@@ -185,25 +234,142 @@ body{
 }
 .container2 {
     background-color: #fff;
+    padding: 200px;
+    display: flex;
 }
 .image-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-.image-principal {
-    border: 2px solid #fff;
-    border-radius: 20px;
-    overflow: hidden;
+    float: left;
+    width: 50%;
 }
 .image-principal img {
-    width: 200px;
-    height: 300px;
-    object-fit: cover;
-}
-.image1, .image2 {
-    border: 2px solid #fff;
     border-radius: 20px;
+    margin-bottom: -410px;
+    
+}
+.image1 {
+    margin-right: 275px;
+    border-radius: 40%;
     overflow: hidden;
+}
+.image2 {
+    margin-left: 275px;
+    border-radius: 40%;
+    overflow: hidden;
+}
+.experience-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    background-color: #0ca5a0;
+    font-size: 17px;
+    border-radius: 20px;
+}
+
+.experience-box p {
+    margin: 0;
+    color: white;
+}
+.img-icone {
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    margin: 10px;
+}
+.competence {
+    float: left;
+    width: 50%;
+    background-color: #fAfAfA;
+    padding: 10px;
+    border-radius: 20px;
+}
+.btn3 {
+    border: none;
+    background-color: #0ca5a0;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+.btn3:hover {
+    background-color: rgb(10, 128, 247);
+}
+.btn3 a {
+    text-decoration: none;
+    color: white;
+}
+.company-values, .company-missions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: none;
+    background-color: white;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.img-icon {
+    border-radius: 50%;
+    border: none;
+    background-color: #0ca5a0;
+}
+.social-page {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    background-color: white;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.social-page img {
+    border-radius: 50%;
+}
+.container3 {
+    background-color: #ccc;
+    padding: 10px;
+    text-align: center;
+}
+.container3 h1{
+    font-size: 28px;
+    font-weight: bold;
+    color: #123;
+}
+.container3 h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: #123;
+}
+.container3 a{
+    text-decoration: none;
+    color: #00a2a5;
+}
+.footer {
+    display: flex;
+    margin: 20px;
+}
+.finance {
+    border: none;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.market {
+    border: none;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.management {
+    border: none;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.services a {
+    text-decoration: none;
+    color: white;
 }
